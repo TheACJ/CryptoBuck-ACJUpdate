@@ -1,3 +1,4 @@
+// CryptoBucks/src/components/Pagination.js
 import React, { useContext, useRef } from "react";
 import paginationArrow from "../assets/pagination-arrow.svg";
 import { CryptoContext } from "./../context/CryptoContext";

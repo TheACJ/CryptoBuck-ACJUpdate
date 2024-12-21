@@ -1,0 +1,35 @@
+CryptoBucks/
+├── public/
+│   ├── index.html
+    ├──
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├──Chart.js
+│   │   ├──CryptoDetails.js
+│   │   ├──Filters.js
+│   │   ├──Logo.js
+│   │   ├──Navigation.js
+│   │   ├──Pagination.js
+│   │   ├──Search.js
+│   │   ├──TableComponents.js
+│   │   ├──TrendingCoins.js     
+│   ├── pages/
+│   │   ├── Crypto.js
+│   │   ├── Home.js
+│   │   ├── Saved.js
+│   │   ├── Trending.js
+│   ├── contexts/
+│   │   ├── CryptoContext.js
+│   │   ├── StorageContext.js
+│   │   └── TrendingContext.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   ├── setupTests.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── README.md ✓

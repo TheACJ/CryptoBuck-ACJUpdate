@@ -1,3 +1,4 @@
+// CryptoBucks/src/pages/Crpto.js
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Filters from "../components/Filters";

@@ -1,3 +1,4 @@
+// CryptoBucks/src/pages/Home.js
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Logo from "../components/Logo";

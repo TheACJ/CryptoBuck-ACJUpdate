@@ -1,3 +1,4 @@
+// CryptoBucks/src/pages/Trending.js
 import { data } from "autoprefixer";
 import React, { useContext } from "react";
 import { Outlet } from "react-router-dom";

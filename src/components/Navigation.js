@@ -1,7 +1,12 @@
+// CryptoBucks/src/components/Nacigation.js
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useWallet } from '../hooks/useWallet';
+
 
 const Navigation = () => {
+  const { wallet, connect, disconnect } = useWallet();
+
   return (
     <nav
       className="w-[40%] mt-16 flex justify-around align-middle
@@ -56,6 +61,12 @@ ${
       >
         saved
       </NavLink>
+      <button
+          onClick={wallet ? disconnect : connect}
+          className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-700"
+        >
+          {wallet ? `Disconnect (${wallet.address.slice(0, 6)}...)` : 'Connect Wallet'}
+        </button>
     </nav>
   );
 };

@@ -1,3 +1,4 @@
+// CryptoBucks/src/components/Search.js
 import debounce from "lodash.debounce";
 import React, { useContext, useState } from "react";
 import searchIcon from "../assets/search-icon.svg";

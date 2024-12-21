@@ -1,3 +1,4 @@
+// CryptoBucks/src/components/CryptoDetails.js
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useContext, useEffect, useState } from "react";
 import ReactDOM from "react-dom";

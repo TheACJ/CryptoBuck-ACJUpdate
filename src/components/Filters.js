@@ -1,3 +1,4 @@
+// CryptoBucks/src/components/Filters.js
 import React, { useContext, useRef } from "react";
 import Search from "./Search";
 import submitIcon from "../assets/submit-icon.svg";
